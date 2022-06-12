@@ -1,0 +1,243 @@
+*{
+  scroll-behavior: smooth;
+}
+
+/*BODY*/
+body {
+  background-color: white;
+  font-family: 'montserrat', sans-serif;
+}
+
+/* On screens that are 800px or less, set the background color to blue */
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lightgrey;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: darkgrey;
+  }
+}
+
+/*header*/
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+/*END OF BODY*/
+
+/*LOGO*/
+.mecunalogo {
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    justifycontent: space-around;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-bottom: 6px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*navbar*/
+.nav-menu {
+    background: rgba(0, 134, 205);
+    padding: 0px;
+    transition: all .7s;
+}
+
+.navbar-brand {
+    font-family: static/montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #eee;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.menu-item {
+    font-size: 20px;
+    font-family: static/montserrat;, sans-serif;
+    font-weight: 750;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color .3s;
+}
+
+.nav-active {
+    color: black;
+}
+
+.menu-item:hover {
+    color: black;
+}
+/*end of navbar*/
+
+.flex-container {
+    padding: 20;
+    margin: 20;
+    list-style: none;
+    display: flex;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-around li {
+    background: hotpink;
+}
+
+
+.carousel {
+    text-align: center;
+}
+
+.text {
+    justify-content: space-around;
+    padding-top: 20px 20px 20px 20px;
+    margin: 0px;
+}
+
+
+
+/*TICKETS*/
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="e-mail"],
+input[type="number"],
+input[type="search"],
+textarea,
+select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0 0 0 300px;
+    outline: 0;
+    padding: 15px;
+    width: 50%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+
+
+select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+}
+
+
+/*BUTTON*/
+button {
+    padding: 19px 39px 18px 39px;
+    color: white;
+    background-color: rgba(0, 134, 205);
+    font-size: 25px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 15px;
+    width: 25%;
+    border-color: rgba(0, 134, 205);
+    font-family: montserrat, sans-serif;
+    font-weight: bold;
+}
+/*END OF BUTTON*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+
+label {
+    display: block;
+    margin: 20px 20px 20px 300px;
+}
+
+label.light {
+    font-weight: 300;
+    display: inline;
+}
+
+.number {
+    background-color: rgba(0, 134, 205);
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 0 0 0 300px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 100%;
+}
+
+/*END OF TICKETS*/
+
+/*CONTACT*/
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.row:after {
+    content: "";
+    display: none;
+    clear: both;
+}
+
+.adres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 30px 30px;
+}
+
+h4{
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+}
+
+/*END OF CONTACT*/
+
+/*OVER*/
+.over{
+  padding: 30px 250px 50px 250px;
+}
+/*END OF OVER*/
